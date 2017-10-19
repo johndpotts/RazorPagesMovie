@@ -33,3 +33,9 @@ body {
         display: none;
     }
 }
+
+.logo {
+    max-height: 40px;
+    margin-top: 5px;
+   
+}

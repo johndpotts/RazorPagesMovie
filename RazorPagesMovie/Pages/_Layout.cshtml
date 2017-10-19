@@ -3,6 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Movie Collection" />
+    <meta property="og:description" content="An ASP.Net Core 2 App buld with Razor Pages" />
+    <meta property="og:image" content="https://movie-collection.azurewebsites.net/Content/images/preview.png" />
+    <meta property="og:image:width" content="540" />
+    <meta property="og:image:height" content="460" />
+    <meta property="og:image:alt" content="An ASP.Net Core 2 App buld with Razor Pages" />
+    <meta property="og:url" content="https://movie-collection.azurewebsites.net">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="~/images/favicon.png">
     <title>@ViewData["Title"] - Movie</title>
 
     <environment include="Development">
@@ -26,7 +35,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Movies/Index" class="navbar-brand">RpMovie</a>
+                <a href="http://johndpotts.github.io" class="navbar-brand">John D Potts</a>
+                <image src="images/logo.png" alt="John D Potts logo" class="logo"></image>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
